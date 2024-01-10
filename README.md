@@ -433,6 +433,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 ## Content
 
 - All content was written by [MorgaanW](https://github.com/MorgaanW), [fawyl](https://github.com/fawyl), [Graciete-Gil](https://github.com/Graciete-Gil) and [ProfYaffle88](https://github.com/users/ProfYaffle88)
+- The format of this ReadMe.md was adapted from a docoument by [Iris Smok](url)
 - The structure of the gallery page was adapted from . . .
 - Navbar stuff . . .
 
