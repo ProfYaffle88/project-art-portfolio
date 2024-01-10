@@ -32,16 +32,16 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
 
 ## Features
 
-- An easy and simple navigation throught the website.
+- An easy and simple navigation throughout the website.
 - A gallery of past work.
-- An About Me/Blog to provide insight into current work.
+- An About Me to provide insight into current work.
 - A clear and straightforward contact form, so that potential clients can easily get in touch with the artist.
 - Social links in the footer of each page so user can follow the artist via social networks and be up to date with the latest information
 
 
 ### Future Features
 
-- Develop "About Me" into an ongoing Blog
+- Develop "About Me" into an ongoing "Blog"
 - Availability calendar for any user seeking specific dates for a commission.
 - Replace static hero image with cover flow of multiple images
 
@@ -59,12 +59,12 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
     - Appears on every page with link to contact page and all social media links
 
  - **Home Page**
-    - *Hero image* - Showcase artwork
+    - *Hero image* - Showcase artwork and link gallery
     - *About the Artist* - located ... , introduces the artist to users
     - *Gallery* - located ... , direct link to gallery.
     - *Contact* - Call to action directing user to contact page for users expressly looking to make contact.
     
-- **About Me** - Allows the user to get to know the artist behind the art.
+- **About the Artist** - Allows the user to get to know the artist behind the art.
 
 - **Gallery** - Allows the user to see multiple examples of the the artist's work. 
 
@@ -73,59 +73,57 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
 
 # Wireframes
 
-
-### _Home Page_ 
-
-<p align="center">
-<img src="#" width="600" height="700">
-</p>
-
-
-
-### _About_
-
-<p align="center">
-<img src="#" width="600" height="900">
-</p>
-
-
-### _Gallery_
-
-<p align="center">
-<img src="#" width="600" height="900">
-</p>
-
-### _Contact_
-
-<p align="center">
-<img src="#" width="600" height="900">
-</p>
-
-
 ### _Mobile View - Home Page_
 
 <p align="center">
-<img src="#" width="400" height="1000">
+<img src="assets/images/wireframes/mob-landing-page.PNG" width="400" height="1000">
 </p>
 
 ### _Mobile View - About_
 
 <p align="center">
-<img src="#" width="400" height="1000">
+<img src="assets/images/wireframes/mob-about-page.PNG" width="400" height="1000">
 </p>
 
 
 ### _Mobile View - Gallery_
 
 <p align="center">
-<img src="#" width="400" height="1000">
+<img src="assets/images/wireframes/mob-gallery-page.PNG" width="400" height="1000">
 </p>
 
 ### _Mobile View - Contact_
 
 <p align="center">
-<img src="#" width="400" height="1000">
+<img src="assets/images/wireframes/mob-contact-page.PNG" width="400" height="1000">
 </p>
+
+### _Home Page_ 
+
+<p align="center">
+<img src="assets/images/wireframes/desktop-landing-page.PNG" width="600" height="700">
+</p>
+
+### _About_
+
+<p align="center">
+<img src="assets/images/wireframes/desktop-about-page.PNG" width="600" height="900">
+</p>
+
+
+### _Gallery_
+
+<p align="center">
+<img src="assets/images/wireframes/desktop-gallery-page.PNG" width="600" height="900">
+</p>
+
+### _Contact_
+
+<p align="center">
+<img src="assets/images/wireframes/desktop-contact-page.PNG" width="600" height="900">
+</p>
+
+<hr>
 
 # Surface
 
