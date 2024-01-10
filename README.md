@@ -211,7 +211,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 ### **Testing Users Stories form (UX) Section**
 
 1.  As a new user of this website, I want to quickly and easily view examples of this artist's work.
-    -  Navigation is clear and consistent from page-to-page. Artwork is prominently displayed throughout all pages.
+    -  Navigation is clear and consistent from page-to-page and across. Artwork is prominently displayed throughout the browsing experience.
 
  *Desktop,Laptop View*
 
