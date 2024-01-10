@@ -76,51 +76,51 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
 ### _Mobile View - Home Page_
 
 <p align="center">
-<img src="assets/images/wireframes/mob-landing-page.PNG" width="400" height="1000">
+<img src="assets/images/wireframes/mob-landing-page.PNG" width="250" height="500">
 </p>
 
 ### _Mobile View - About_
 
 <p align="center">
-<img src="assets/images/wireframes/mob-about-page.PNG" width="400" height="1000">
+<img src="assets/images/wireframes/mob-about-page.PNG" width="250" height="500">
 </p>
 
 
 ### _Mobile View - Gallery_
 
 <p align="center">
-<img src="assets/images/wireframes/mob-gallery-page.PNG" width="400" height="1000">
+<img src="assets/images/wireframes/mob-gallery-page.PNG" width="250" height="500">
 </p>
 
 ### _Mobile View - Contact_
 
 <p align="center">
-<img src="assets/images/wireframes/mob-contact-page.PNG" width="400" height="1000">
+<img src="assets/images/wireframes/mob-contact-page.PNG" width="250" height="500">
 </p>
 
 ### _Home Page_ 
 
 <p align="center">
-<img src="assets/images/wireframes/desktop-landing-page.PNG" width="600" height="700">
+<img src="assets/images/wireframes/desktop-landing-page.PNG" width="600" height="380">
 </p>
 
 ### _About_
 
 <p align="center">
-<img src="assets/images/wireframes/desktop-about-page.PNG" width="600" height="900">
+<img src="assets/images/wireframes/desktop-about-page.PNG" width="600" height="380">
 </p>
 
 
 ### _Gallery_
 
 <p align="center">
-<img src="assets/images/wireframes/desktop-gallery-page.PNG" width="600" height="900">
+<img src="assets/images/wireframes/desktop-gallery-page.PNG" width="600" height="380">
 </p>
 
 ### _Contact_
 
 <p align="center">
-<img src="assets/images/wireframes/desktop-contact-page.PNG" width="600" height="900">
+<img src="assets/images/wireframes/desktop-contact-page.PNG" width="600" height="380">
 </p>
 
 <hr>
