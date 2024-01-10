@@ -24,7 +24,7 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
 - As a new user of this website, I want to quickly and easily view examples of this artist's work.
 - As a new user of this website, I want to quickly and easily be able to contact the artist if needed.
 - As a new user of this website, I want to easily be able to learn more about the artist themselves.
-- As a new user of this website, I want to follow the salon on social media so I can keep up to date with the latest information.
+- As a new user of this website, I want to follow the artist on social media so I can keep up to date with the latest information.
 
 
 #
