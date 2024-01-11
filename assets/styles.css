@@ -61,9 +61,13 @@
 
 .title {
     font-family: garamond, sans-serif;
-    text-align: center;
-    background-color: #404040;
-    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #262622;
+    color: #D0CECE;
+    margin-bottom: 0px;
+    font-size: xx-large;
 }
 
 h2 {
@@ -86,6 +90,23 @@ h2 {
     max-width: 100%;
     height: auto;
 }
+
+/* ----- Header nav ----- */
+
+.head-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #262622;
+}
+
+.head-nav a {
+    color: #D0CECE;
+}
+
+.nav-toggle {
+    list-style-type: none;
+}
+
 
 
 /* ---- Tablets ------ */
