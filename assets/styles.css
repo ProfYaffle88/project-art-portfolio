@@ -1,0 +1,153 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700&display=swap');
+
+/*----------HEADER---------*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*----------HEADER---------*/
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-betwee;
+    align-items: center;
+    background-color: #101111;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #333333;
+}
+
+.logo_container {
+    height: 100%;
+    display: flex;
+    align-items:center;
+}  
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 10px;
+}
+
+.logo_container h1 {
+    color: #ffffff;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: garamond,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.navigation a {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+/* ---- MOBILE FIRST ------ */
+
+.title {
+    font-family: garamond, sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #262622;
+    color: #D0CECE;
+    margin-bottom: 0px;
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: black;
+    min-width: 100%;
+    min-height: 5%;
+    position: fixed; bottom: 0;
+    
+}
+
+.image-title {
+    font-family: f;
+}
+
+.image-title, img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ----- Header nav ----- */
+
+.head-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #262622;
+}
+
+.head-nav a {
+    color: #D0CECE;
+}
+
+.nav-toggle {
+    list-style-type: none;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    background-color: #262626;
+    min-width: 100%;
+    min-height: 15px;
+}
+
+#footer-copyright {
+    text-align: center;
+    color: #767171;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 180%;
+    padding: 5%;
+    color: #767171;
+}
+
+/* ---- Tablets ------ */
+@media (min-width:768px) {
+    
+
+
+
+}
+
+
+/* ---- Desktop ------ */
+@media (min-width:1024px) {
+    
+    
+
+}
+
