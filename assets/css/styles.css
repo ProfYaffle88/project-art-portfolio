@@ -1,5 +1,17 @@
+/* ---- ALL SELECTOR TO AID POSITIONING ---- */
 
+/** {
+    border: 1px solid;
+}*/
 
+/* ---- COLORS ---- */
+
+/*  
+Placeholder set (if in doubt, use #fff for white and #000 for black and we'll update later)
+    262626 Dark Grey
+    767171 Grey
+    D0CECE Pale Grey
+*/
 
 /* ---- MOBILE FIRST ------ */
 
@@ -30,7 +42,6 @@ h2 {
     max-width: 100%;
     height: auto;
 }
-
 
 /* ---- Tablets ------ */
 @media (min-width:768px) {
