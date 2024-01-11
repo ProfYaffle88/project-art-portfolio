@@ -15,6 +15,110 @@ Placeholder set (if in doubt, use #fff for white and #000 for black and we'll up
 
 /* ---- MOBILE FIRST ------ */
 
+/* General Styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #929292;
+    font-family: sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #000;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #929292;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+nav {
+    position: absolute;
+    justify-content: flex-end;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: flex;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Header */
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Footer */
+
+
+
+/*prev*/
+/* 
 .title {
     font-family: f;
     text-align: center;
@@ -26,14 +130,6 @@ h2 {
     text-align: center;
 }
 
-.nav-bar {
-    background-color: black;
-    min-width: 100%;
-    min-height: 5%;
-    position: fixed; bottom: 0;
-    
-}
-
 .image-title {
     font-family: f;
 }
@@ -42,12 +138,37 @@ h2 {
     max-width: 100%;
     height: auto;
 }
-
+*/
 /* ---- Tablets ------ */
 @media (min-width:768px) {
-    
+    /*Header and Navbar*/
+    nav {
+        display: flex;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
+    #menu {
+        display: flex;
+    }
 
+    #menu > li {
+        padding-left: 1rem;
+        justify-content: flex-end;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /*Barry Jenkins - home page anchor element*/
+    #title {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
 
 }
 
