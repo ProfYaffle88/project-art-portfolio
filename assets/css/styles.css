@@ -26,27 +26,12 @@ h2 {
     text-align: center;
 }
 
-
-/* -- Nav Bar -- */
 .nav-bar {
     background-color: black;
     min-width: 100%;
     min-height: 5%;
     position: fixed; bottom: 0;
     
-}
-
-/* - Nav Bar Toggle - */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
 }
 
 .image-title {
