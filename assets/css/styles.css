@@ -115,7 +115,24 @@ header a {
 
 /* Footer */
 
+#social-networks {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #929292;
+}
+
+#footer-copyright {
+    font-size: 50%;
+}
 
 /*prev*/
 /* 
