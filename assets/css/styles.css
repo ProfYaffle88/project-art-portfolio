@@ -148,6 +148,8 @@ header a {
     background-color: #3a3a3ac7;
     font-size: 130%;
     position: absolute;
+    display: block;
+    align-items: center;
     right: 10px;
     bottom: 120px;
     width:70%;
@@ -155,8 +157,29 @@ header a {
     padding: 10px;
 }
 
+#hero-text .hero-button {
+    align-self: center;
+}
+
 #hero-text > h2,
 #hero-text > h3 {
+    color: #fff;
+}
+
+.hero-button {
+    background-color: #000;
+    border: none;
+    color: white;
+    margin: 10px 0;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.hero-button a {
+    text-decoration: none;
     color: #fff;
 }
 
