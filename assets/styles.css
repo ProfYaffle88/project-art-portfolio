@@ -107,7 +107,33 @@ h2 {
     list-style-type: none;
 }
 
+/* FOOTER STYLES */
 
+footer {
+    background-color: #262626;
+    min-width: 100%;
+    min-height: 15px;
+}
+
+#footer-copyright {
+    text-align: center;
+    color: #767171;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 180%;
+    padding: 5%;
+    color: #767171;
+}
 
 /* ---- Tablets ------ */
 @media (min-width:768px) {
@@ -124,3 +150,4 @@ h2 {
     
 
 }
+
