@@ -217,8 +217,9 @@ header a {
     align-content: center;
 }
 
-/*prev*/
+/*prev code*/
 /* 
+
 .title {
     font-family: f;
     text-align: center;
@@ -238,7 +239,9 @@ h2 {
     max-width: 100%;
     height: auto;
 }
+
 */
+
 /* ---- Tablets ------ */
 @media (min-width:768px) {
     /*Header and Navbar*/
@@ -269,7 +272,6 @@ h2 {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
 }
 
 
