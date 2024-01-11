@@ -137,7 +137,7 @@ header a {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/barry-jenkins-at-work.jpg");
+    background: url("../images/barry-jenkins-at-work.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
