@@ -76,51 +76,51 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
 ### _Mobile View - Home Page_
 
 <p align="center">
-<img src="assets/images/wireframes/mob-landing-page.PNG" width="250" height="500">
+<img src="assets/images/wireframes/mob-landing-page.PNG" width="400" height="1000">
 </p>
 
 ### _Mobile View - About_
 
 <p align="center">
-<img src="assets/images/wireframes/mob-about-page.PNG" width="250" height="500">
+<img src="assets/images/wireframes/mob-about-page.PNG" width="400" height="1000">
 </p>
 
 
 ### _Mobile View - Gallery_
 
 <p align="center">
-<img src="assets/images/wireframes/mob-gallery-page.PNG" width="250" height="500">
+<img src="assets/images/wireframes/mob-gallery-page.PNG" width="400" height="1000">
 </p>
 
 ### _Mobile View - Contact_
 
 <p align="center">
-<img src="assets/images/wireframes/mob-contact-page.PNG" width="250" height="500">
+<img src="assets/images/wireframes/mob-contact-page.PNG" width="400" height="1000">
 </p>
 
 ### _Home Page_ 
 
 <p align="center">
-<img src="assets/images/wireframes/desktop-landing-page.PNG" width="600" height="380">
+<img src="assets/images/wireframes/desktop-landing-page.PNG" width="600" height="700">
 </p>
 
 ### _About_
 
 <p align="center">
-<img src="assets/images/wireframes/desktop-about-page.PNG" width="600" height="380">
+<img src="assets/images/wireframes/desktop-about-page.PNG" width="600" height="900">
 </p>
 
 
 ### _Gallery_
 
 <p align="center">
-<img src="assets/images/wireframes/desktop-gallery-page.PNG" width="600" height="380">
+<img src="assets/images/wireframes/desktop-gallery-page.PNG" width="600" height="900">
 </p>
 
 ### _Contact_
 
 <p align="center">
-<img src="assets/images/wireframes/desktop-contact-page.PNG" width="600" height="380">
+<img src="assets/images/wireframes/desktop-contact-page.PNG" width="600" height="900">
 </p>
 
 <hr>
@@ -211,7 +211,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 ### **Testing Users Stories form (UX) Section**
 
 1.  As a new user of this website, I want to quickly and easily view examples of this artist's work.
-    -  Navigation is clear and consistent from page-to-page and across. Artwork is prominently displayed throughout the browsing experience.
+    -  Navigation is clear and consistent from page-to-page. Artwork is prominently displayed throughout all pages.
 
  *Desktop,Laptop View*
 
