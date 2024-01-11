@@ -1,0 +1,49 @@
+
+
+
+/* ---- MOBILE FIRST ------ */
+
+.title {
+    font-family: f;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: black;
+    min-width: 100%;
+    min-height: 5%;
+    position: fixed; bottom: 0;
+    
+}
+
+.image-title {
+    font-family: f;
+}
+
+.image-title, img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ---- Tablets ------ */
+@media (min-width:768px) {
+    
+
+
+
+}
+
+
+/* ---- Desktop ------ */
+@media (min-width:1024px) {
+    
+    
+
+}
