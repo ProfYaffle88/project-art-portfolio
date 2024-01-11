@@ -36,7 +36,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #929292;
+    color: #fff;
     font-family: sans-serif;
 }
 
@@ -63,10 +63,12 @@ header a {
     color: #fff;
 }
 
-h1 {
+h1, 
+h2, 
+h3 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
-    color: #929292;
+    color: #fff;
 }
 
 #menu {
@@ -138,6 +140,24 @@ header a {
     height: 600px;
     width: 100%;
     background: url("../images/barry-jenkins-at-work.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-text {
+    /* last two characters of hex value create transparency */
+    background-color: #3a3a3ac7;
+    font-size: 130%;
+    position: absolute;
+    right: 10px;
+    bottom: 120px;
+    width:70%;
+    min-height: 200px;
+    padding: 10px;
+}
+
+#hero-text > h2,
+#hero-text > h3 {
+    color: #fff;
 }
 
 /* Footer */
