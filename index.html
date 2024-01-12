@@ -3,81 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" href="assets/images/faviconplaceholder.png"> <!--just a placeholder-->
-    <title></title>
+
+    <title>Bobby Jenkins</title>
 </head>
+
+
 <body>
-    <header>
-    <div class="header">
-        <div class="inner_header">
-            <div class="logo_container">
-                <div>
-                    <nav>
-                        <ul class="navigation">
-                            <li><a href="index.html" class="active">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <h1>Bobby<span> JENKINS</span></h1> 
-            </div>
-        </div>
-    </div>
-      
-       
+    <!-- HEADER -->
+    <header> 
+        <a href="index.html">
+            <h1 class="title">Bobby Jenkins</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>          
+            <ul id="menu" class="head-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-        <header> 
-            <h1 class="title">Bobby Jenkins</h1>
-
-            <nav>
-              <input type="checkbox" id="nav-toggle" name="nav-toggle">
-              <label for="nav-toggle" class="nav-toggle-label">☰</label>
-                <ul class="head-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <section>
-            <h2>My Art</h2>
-            <h3 class="image-title">Paintings?</h3>
-            <a href="assets/images/imageplacehold.png" target="_blank">
-                <img src="assets/images/imageplacehold.png">
-            </a>
-            <a href="assets/images/imageplacehold.png" target="_blank">
-                <img src="assets/images/imageplacehold.png">
-            </a>
-            <a href="assets/images/imageplacehold.png" target="_blank">
-                <img src="assets/images/imageplacehold.png">
-            </a>
-
-            <h3 class="image-title">Drawings?</h3>
-            <a href="assets/images/imageplacehold.png" target="_blank">
-                <img src="assets/images/imageplacehold.png">
-            </a>
-            <a href="assets/images/imageplacehold.png" target="_blank">
-                <img src="assets/images/imageplacehold.png">
-            </a>
-            <a href="assets/images/imageplacehold.png" target="_blank">
-                <img src="assets/images/imageplacehold.png">
-            </a>
-            
-
-    </section>
+    <!-- Hero Image -->
+    <main>
+        <section id="hero-image">
+           <div id="hero-text">
+            <h2>Bobby Jenkins</h2>
+            <h3><em>A prolific modern artist, available for commisions and enquiries</em></h3>
+            <button class="hero-button"><a href="about.html">More about Bobby</a></button>
+            <button class="hero-button"><a href="gallery.html">See Bobby's Gallery</a></button>
+            <button class="hero-button"><a href="contact.html">Get in touch</a></button>
+           </div>
+        </section>
+    </main>
 
     <!-- Footer Section -->
-    <footer>
+    <footer class="footer">
         <ul id="social-networks">
             <li>
+                <p id="footer-copyright"><i class="fa-regular fa-copyright"></i> Bobby Jenkins 2024</p>
+            </li>
+            <li>
+
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)">
                     <i class="fa-brands fa-facebook"></i></a>
@@ -93,13 +65,9 @@
                     <i class="fa-brands fa-youtube"></i></a>
             </li>
         </ul>
-        <p id="footer-copyright">Copyright Bobby Jenkins</p>
-
     </footer>
-    <!-- Font Awesome Kit -->
-    <script src="https://kit.fontawesome.com/3cf446bba3.js" crossorigin="anonymous"></script>
- 
 
-
+    <!-- Font Aweseome kit-->
+    <script src="https://kit.fontawesome.com/dd96fe519d.js" crossorigin="anonymous"></script>
 </body>
 </html>

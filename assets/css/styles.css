@@ -1,0 +1,491 @@
+/* ---- ASTERISK ALL SELECTOR TO AID POSITIONING ---- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* ---- COLORS ---- */
+
+/*  Placeholder set (if in doubt, use #fff for white and #000 for black and we'll update later)
+    262626 Dark Grey
+    767171 Grey
+    BDBDBD Pale Grey */
+
+header {
+    background-color: #000;
+}
+
+main {
+    background-color: #bdbdbd;
+}
+
+footer {
+    background-color: #000;
+}
+
+/* ---- MOBILE FIRST ------ */
+
+/* General Styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #fff;
+    font-family: sans-serif;
+}
+
+main {
+    /* Makes main element on page take up surplus space and push footer to bottom*/
+    flex: 1 0 auto;
+    margin-top: 50px;
+}
+
+/* Header */
+header {
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, 
+h2, 
+h3 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #bdbdbd;
+}
+
+nav {
+    position: absolute;
+    justify-content: flex-end;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: flex;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Header */
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Landing page image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/barry-jenkins-at-work.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#hero-text {
+    /* last two characters of hex value create transparency */
+    background-color: #3a3a3ac7;
+    font-size: 130%;
+    position: absolute;
+    display: block;
+    align-items: center;
+    right: 10px;
+    bottom: 120px;
+    width:70%;
+    min-height: 200px;
+    padding: 10px;
+    text-align: right;
+}
+
+#hero-text .hero-button {
+    align-self: center;
+}
+
+#hero-text > h2,
+#hero-text > h3 {
+    color: #fff;
+}
+
+.hero-button {
+    background-color: #000;
+    border: none;
+    color: white;
+    margin: 10px 0;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.hero-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* About Page */
+
+.bio-page {
+    display: flex;
+}
+
+#profile-pic {
+    max-width: 150px;
+}
+
+#awards {
+    list-style: circle;
+}
+
+/* Gallery */
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Contact Form */
+
+#signup-form {
+    align-content: center;
+}
+
+#contact-form {
+    width: 85%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    text-align: center;
+  }
+
+#social-networks {
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 175%;
+    padding: 5%;
+    color: #929292;
+}
+
+#footer-copyright {
+    font-size: 50%;
+    justify-content: center;
+    align-content: center;
+}
+
+/*prev code*/
+/* 
+
+.title {
+    font-family: f;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.image-title {
+    font-family: f;
+}
+
+.image-title, img {
+    max-width: 100%;
+    height: auto;
+}
+
+*/
+
+/*Copied from other CSS file*/
+
+
+
+
+/* ---- MOBILE FIRST ------ */
+
+.title {
+    font-family: f;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: #262622;
+    color: #D0CECE;
+    margin-bottom: 0px;
+    font-size: xx-large;
+}
+
+h2 {
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: black;
+    min-width: 100%;
+    min-height: 5%;
+    position: fixed; bottom: 0;
+    
+}
+
+.image-title {
+    font-family: f;
+}
+
+.image-title, img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ----- Header nav ----- */
+
+.head-nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #262622;
+}
+
+.head-nav a {
+    color: #D0CECE;
+}
+
+.nav-toggle {
+    list-style-type: none;
+}
+
+/* ------- Contact Form ---------*/
+
+.form-title {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    padding: 10%;
+    flex-grow: 1;
+}
+
+
+#contact-form {
+    color: #fafafa;
+    background-color: #767176;
+    padding: 30px;
+}
+
+
+.text-input {
+    background-color: #fafafa;
+    color: #000000;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #D0CECE;
+    border-radius: 2px;
+
+}
+
+
+.radio-dial {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#message {
+    height: 100px;
+}
+
+.first-last-name {
+    max-width: 300px;
+}
+
+
+
+
+/* ---- Tablets ------ */
+@media (min-width:768px) {
+
+    #signup-form {
+        align-content: center;
+    }
+    
+    #contact-form {
+        width: 85%;
+        max-width: 600px;
+        margin: 0 auto;
+    } 
+
+
+}
+
+/* ---- Desktop ------ */
+@media (min-width:1024px) {
+    
+    
+
+}
+
+/* Gallery Responsive Media Queries */
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+/* ---- Tablets ------ */
+@media (min-width:768px) {
+    /*Header and Navbar*/
+    nav {
+        display: flex;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+        justify-content: flex-end;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    /*Barry Jenkins - home page anchor element*/
+    #title {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+}
+
+
+/* ---- Desktop ------ */
+@media (min-width:1024px) {
+    
+    
+
+}
