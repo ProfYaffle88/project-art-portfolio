@@ -16,15 +16,15 @@
     BDBDBD Pale Grey */
 
 header {
-    background-color: #262626;
+    background-color: #343A40;
 }
 
 main {
-    background-color: #fff;
+    background-color: #DEE2E6;
 }
 
 footer {
-    background-color: #262626;
+    background-color: #343A40;
 }
 
 /* ---- MOBILE FIRST ------ */
@@ -39,7 +39,7 @@ footer {
     z-index: -1;
     width: 100%;
     height: 200px;
-    background-image: linear-gradient(to bottom rgba(58,58,58,0), rgba(58,58,58,1));
+    background-image: linear-gradient(to bottom rgba(52,58,64,0), rgba(52,58,64,1));
   }
 
   #grad1 {
@@ -48,7 +48,7 @@ footer {
     z-index: -1;
     width: 100%;
     height: 300px;
-    background-image: linear-gradient(to top, rgba(58,58,58,0), rgba(58,58,58,1));
+    background-image: linear-gradient(to top, rgba(52,58,64,0), rgba(52,58,64,1));
   }
 
 body {
@@ -56,7 +56,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #fff;
+    color: #DEE2E6;
     font-family: sans-serif;
 }
 
@@ -80,7 +80,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: #fff;
+    color: #DEE2E6;
 }
 
 h1, 
@@ -88,7 +88,7 @@ h2,
 h3 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 2px;
-    color: #fff;
+    color: #DEE2E6;
 }
 
 #menu {
@@ -124,12 +124,12 @@ h3 {
 nav {
     position: absolute;
     justify-content: flex-end;
-    background-color: #262626;
-    color: #fff;
+    background-color: #343A40;
+    color: #DEE2E6;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #343A40;
     display: none;
     top: 100%;
 }
@@ -165,7 +165,7 @@ header a {
 
 #hero-text {
     /* last two characters of hex value create transparency */
-    background-color: #3a3a3ac7;
+    background-color: #343A40c7;
     font-size: 130%;
     position: absolute;
     display: block;
@@ -184,13 +184,13 @@ header a {
 
 #hero-text > h2,
 #hero-text > h3 {
-    color: #fff;
+    color: #DEE2E6;
 }
 
 .hero-button {
-    background-color: #262626;
+    background-color: #343A40;
     border: none;
-    color: white;
+    color: #DEE2E6;
     margin: 10px 0;
     padding: 3px 3px;
     text-align: center;
@@ -201,7 +201,7 @@ header a {
 
 .hero-button a {
     text-decoration: none;
-    color: #fff;
+    color: #DEE2E6;
 }
 
 /* About Page */
@@ -273,13 +273,13 @@ div.gallery {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #262626;
+    background-color: #343A40;
     color: white;
     text-align: center;
   }
 
 #social-networks {
-    background-color: #262626;
+    background-color: #343A40;
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -336,7 +336,7 @@ h2 {
     text-align: left;
     padding-left: 10px;
     padding-top: 10px;
-    background-color: #262622;
+    background-color: #343a40;
     color: #D0CECE;
     margin-bottom: 0px;
     font-size: xx-large;
@@ -347,7 +347,7 @@ h2 {
 }
 
 .nav-bar {
-    background-color: black;
+    background-color: #343a40;
     min-width: 100%;
     min-height: 5%;
     position: fixed; bottom: 0;
@@ -368,7 +368,7 @@ h2 {
 .head-nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: #262622;
+    background-color: #343A40;
 }
 
 .head-nav a {
