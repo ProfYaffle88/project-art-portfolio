@@ -234,6 +234,18 @@ div.gallery {
     clear: both;
   }
 
+/* Contact Form */
+
+#signup-form {
+    align-content: center;
+}
+
+#contact-form {
+    width: 85%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* Footer */
 
 .footer {
