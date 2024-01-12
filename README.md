@@ -44,6 +44,7 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
 - Develop "About Me" into an ongoing "Blog"
 - Availability calendar for any user seeking specific dates for a commission.
 - Replace static hero image with cover flow of multiple images
+- Increase responsiveness of landing page -> larger buttons outside of hero-text with seperate images?
 
 #
 # Structure (TBC)
@@ -59,16 +60,17 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
     - Appears on every page with link to contact page and all social media links
 
  - **Home Page**
-    - *Hero image* - Showcase artwork and link gallery
-    - *About the Artist* - located ... , introduces the artist to users
-    - *Gallery* - located ... , direct link to gallery.
-    - *Contact* - Call to action directing user to contact page for users expressly looking to make contact.
+    - *Hero image* - Showcase Bobby at work and call-to-action for differeing users (More about the artist, make an enquiry, view gallery)
+    - *Hero Text box*
+        - *About the Artist* - Call-to-action button linking the about page.
+        - *Gallery* - Call-to-action button linking the gallery page
+        - *Contact* - Call to action directing user to contact page for users expressly looking to make contact.
     
-- **About the Artist** - Allows the user to get to know the artist behind the art.
+- **About the Artist** - Name and Profile image on left with some honours listed below, information on right. Introduces the artist to users. Also link in about text to contact page highlighting availability for work.
 
-- **Gallery** - Allows the user to see multiple examples of the the artist's work. 
+- **Gallery** - Simple easthetic to highlight the art. Allows the user to see multiple examples of the the artist's work. 
 
-- **Contact** - Allows the user to contact the artist by form.
+- **Contact** - Allows the user to contact the artist by form. Radio button to tag the nature of the enquiry.
 
 
 # Wireframes
@@ -128,7 +130,7 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
 # Surface
 
 ## Design 
-Placeholder - Team Discussion
+The priority of the artist/client is to showcase their work. We decided that a clean, monochrome style would highlight the colourful work of the artist. The dominant background colour will be grey, header/footer will be a significantly darker grey, text will be a very pale grey and appear over the same darker grey used for the header and footer; this will maximise contrast and visibility while not disctracting the eye from the art on display. The artist would like this site to generate both awareness and work, so prominent buttons will appear on the landing page directing the user to the appropriate page. The contact form page should have a required radio button for "nature of enquiry" to allow the artist to filter their incoming messages.
 
 
 ## Chosen Colour Palette 
@@ -174,13 +176,13 @@ Placeholder - Team Discussion
 
 - [Balsamiq](https://balsamiq.com/) - was used to create site wireframes.
 
-- [Shutterstock](https://www.shutterstock.com/home) and [Unsplash photo](https://unsplash.com/) - was used to for all images on the website.
+- /*[Shutterstock](https://www.shutterstock.com/home) and [Unsplash photo](https://unsplash.com/) - was used to for all images on the website.*/
 
 - [Am I Responsive](http://ami.responsivedesign.is/) - to check if the site is responsive on different screen sizes.
 
-- [IMG2GO](https://www.img2go.com/compress-image#j=f26cc008-23b4-4d4e-9934-96877fa9a7e7) and [Tiny PNG](https://tinypng.com/) - these sites were used to help me compress the images
+- /*[IMG2GO](https://www.img2go.com/compress-image#j=f26cc008-23b4-4d4e-9934-96877fa9a7e7) and [Tiny PNG](https://tinypng.com/) - these sites were used to help me compress the images*/
 
-- [Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html) - was used to correct indentation issues and get rid of too much whitespace
+- /*[Free Online HTML Formatter](https://www.freeformatter.com/html-formatter.html) - was used to correct indentation issues and get rid of too much whitespace*/
 
 # Testing
 - Tested on . . . version browsers
@@ -400,7 +402,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 # Deployment
 
-
 ## GitHub Pages
 1. Log into GitHub and locate the repository.
 2. At the top locate the settings option 
@@ -410,13 +411,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 5. Click the save button.
 6. The site is now published, it may not be available immediately. 
 7. The site URL is visible on the green bar under the "Github Pages".
-
-## Github Clone 
-
-1. First you need to install the GitPod Browser Extension.
-2. Log into GitHub and locate the repository.
-3. Click the green "Gitpod" button just below the Settings.
-4. Now you created a new Gitpod workspace from the code in Github
+8. The latest deployed version can be seen [here](https://profyaffle88.github.io/project-art-portfolio/)
 
 
 # Credits
@@ -425,13 +420,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 - All content was written by [MorgaanW](https://github.com/MorgaanW), [fawyl](https://github.com/fawyl), [Graciete-Gil](https://github.com/Graciete-Gil) and [ProfYaffle88](https://github.com/users/ProfYaffle88)
 - The format of this ReadMe.md was adapted from a docoument by [Iris Smok](https://github.com/Iris-Smok)
-- The structure of the gallery page was adapted from . . .
-- Navbar stuff . . .
+- The structure of the gallery page was adapted from the [Responsive Gallery Design on W3 Schools](https://www.w3schools.com/css/css_image_gallery.asp)
+- The header, footer and navbar were adapted from the [Love-Running Code Institute project](https://github.com/Code-Institute-Solutions/love-running-v3)
+- Stack Overflow provided several solutions to multiple issues including alignment, positioning, and responsiveness. [Stack Overflow](https://stackoverflow.com/questions)
 
 ## Media
 
-- All images were taken from . . .
+- All images used were made by AI-generated sources
+    -
+    -
 
 ## Acknowledgements
 
-- Thanks to
+- Thanks to w3 Schools, Stack Overflow, Code Institute and above all the holy trinity of instructors; Iris, Martin and Kevin.
