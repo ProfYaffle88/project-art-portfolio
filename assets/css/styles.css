@@ -184,6 +184,20 @@ header a {
     color: #fff;
 }
 
+/* About Page */
+
+.bio-page {
+    display: flex;
+}
+
+#profile-pic {
+    max-width: 150px;
+}
+
+#awards {
+    list-style: circle;
+}
+
 /* Footer */
 
 .footer {
