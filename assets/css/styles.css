@@ -208,16 +208,41 @@ header a {
 
 /* About Page */
 
-.bio-page {
-    display: flex;
+.container {
+    min-width: 200px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h3 {
+    padding-top: 30px;
+    color: #000;
+}
+
+.bio-pic {
+    text-align: center;
 }
 
 #profile-pic {
-    max-width: 150px;
+    max-width: 40%;
+    border-radius: 8px;
+    height: auto;
 }
 
 #awards {
-    list-style: circle;
+    list-style: square;
+    padding: 10px;
+}
+
+.bio-text {
+    max-width: 600px;
+    align-content: center;
+}
+
+.bio-awards,
+.bio-text {
+    color: #000;
 }
 
 /* Gallery */
