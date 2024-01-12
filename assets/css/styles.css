@@ -59,7 +59,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #DEE2E6;
-    font-family: sans-serif;
+    font-family: "Garamond",sans-serif;
 }
 
 main {
@@ -88,7 +88,7 @@ header a {
 h1, 
 h2, 
 h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Garamond", sans-serif;
     letter-spacing: 2px;
     color: #DEE2E6;
 }
@@ -301,40 +301,10 @@ div.gallery {
     align-content: center;
 }
 
-/*prev code*/
-/* 
-
-.title {
-    font-family: f;
-    text-align: center;
-    background-color: black;
-    color: white;
-}
-
-h2 {
-    text-align: center;
-}
-
-.image-title {
-    font-family: f;
-}
-
-.image-title, img {
-    max-width: 100%;
-    height: auto;
-}
-
-*/
-
-/*Copied from other CSS file*/
-
-
-
-
 /* ---- MOBILE FIRST ------ */
 
 .title {
-    font-family: f;
+    font-family: "Garamond", sans-serif;
     text-align: left;
     padding-left: 10px;
     padding-top: 10px;
@@ -357,7 +327,7 @@ h2 {
 }
 
 .image-title {
-    font-family: f;
+    font-family: "Garamond", sans-serif;
 }
 
 .image-title, img {
