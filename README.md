@@ -44,6 +44,7 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
 - Develop "About Me" into an ongoing "Blog"
 - Availability calendar for any user seeking specific dates for a commission.
 - Replace static hero image with cover flow of multiple images
+- Increase responsiveness of landing page -> larger buttons outside of hero-text with seperate images?
 
 #
 # Structure (TBC)
@@ -59,16 +60,17 @@ The work of the artist will be forefront. Navigation will be simple and clear. A
     - Appears on every page with link to contact page and all social media links
 
  - **Home Page**
-    - *Hero image* - Showcase artwork and link gallery
-    - *About the Artist* - located ... , introduces the artist to users
-    - *Gallery* - located ... , direct link to gallery.
-    - *Contact* - Call to action directing user to contact page for users expressly looking to make contact.
+    - *Hero image* - Showcase Bobby at work and call-to-action for differeing users (More about the artist, make an enquiry, view gallery)
+    - *Hero Text box*
+        - *About the Artist* - Call-to-action button linking the about page.
+        - *Gallery* - Call-to-action button linking the gallery page
+        - *Contact* - Call to action directing user to contact page for users expressly looking to make contact.
     
-- **About the Artist** - Allows the user to get to know the artist behind the art.
+- **About the Artist** - Name and Profile image on left with some honours listed below, information on right. Introduces the artist to users. Also link in about text to contact page highlighting availability for work.
 
-- **Gallery** - Allows the user to see multiple examples of the the artist's work. 
+- **Gallery** - Simple easthetic to highlight the art. Allows the user to see multiple examples of the the artist's work. 
 
-- **Contact** - Allows the user to contact the artist by form.
+- **Contact** - Allows the user to contact the artist by form. Radio button to tag the nature of the enquiry.
 
 
 # Wireframes
