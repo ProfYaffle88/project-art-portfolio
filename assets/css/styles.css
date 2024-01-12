@@ -401,6 +401,16 @@ textarea {
     max-width: 300px;
 }
 
+.join-button {
+    border-radius: 5px;
+    border: #000000;
+    padding: 2px;
+}
+
+.inquiry-title {
+    text-align: center;
+}
+
 
 
 
