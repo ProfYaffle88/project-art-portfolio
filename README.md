@@ -418,7 +418,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to check my co
 
 ## Content
 
-- All content was written by [MorgaanW](https://github.com/MorgaanW), [fawyl](https://github.com/fawyl), [Graciete-Gil](https://github.com/Graciete-Gil) and [ProfYaffle88](https://github.com/users/ProfYaffle88)
+- All content was written by [MorgaanW](https://github.com/MorgaanW), [fawyl](https://github.com/fawyl) and [ProfYaffle88](https://github.com/users/ProfYaffle88)
 - The format of this ReadMe.md was adapted from a docoument by [Iris Smok](https://github.com/Iris-Smok)
 - The structure of the gallery page was adapted from the [Responsive Gallery Design on W3 Schools](https://www.w3schools.com/css/css_image_gallery.asp)
 - The header, footer and navbar were adapted from the [Love-Running Code Institute project](https://github.com/Code-Institute-Solutions/love-running-v3)
